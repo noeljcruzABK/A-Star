@@ -1,20 +1,14 @@
-// A-Star.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 2. Spend a moment on some external research on using "A* pathfinding" - a very important and useful pathfinding algorithms - in your code.
+// 3. Using your research, write an A* implementation that reads coordinates labeled (x,y,cost) where x & y are letters that define a connection,
+// and cost is a number that represents the cost. You can use the below information:
+// Sample map to traverse: (a,b,5) (b,c,1) (a,d,7) (c,d,1) - Sample path request: (a,d)
+// 3. The program should determine if it's possible to reach a destination given the starting point.
+// It should also find the cheapest path, making sure to output the cost of the path.
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
