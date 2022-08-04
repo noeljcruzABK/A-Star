@@ -6,9 +6,17 @@
 // It should also find the cheapest path, making sure to output the cost of the path.
 
 #include <iostream>
+#include"Graph.cpp"
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    Graph g;
+
+    g.addEdge("a", "b", 5, true);
+    g.addEdge("b", "c", 1, true);
+    g.addEdge("a", "d", 7, true);
+    g.addEdge("c", "d", 1, true);
+
+    g.printAdjList();
 }
